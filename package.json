@@ -1,0 +1,43 @@
+{
+    "name": "oasis",
+    "displayName": "Oasis",
+    "description": "🌅 Light mellow syntax theme",
+    "version": "0.0.1",
+    "publisher": "oasis-banner",
+    "icon": "images/icon.png",
+    "author": "Paul Boelens <info@paulboelens.com>",
+    "galleryBanner": {
+        "color": "FDF6E3",
+        "theme": "light"
+    },
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "light",
+        "theme",
+        "soft",
+        "desert",
+        "mellow"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Oasis",
+                "uiTheme": "vs",
+                "path": "./themes/oasis-color-theme.json"
+            }
+        ]
+    },
+    "bugs": {
+        "url": "https://github.com/rumboon/oasis-theme-vscode/issues",
+        "email": "info@paulboelens.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rumboon/oasis-theme-vscode.git"
+    }
+}
